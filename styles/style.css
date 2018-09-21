@@ -3,6 +3,43 @@
   src: url('https://fonts.googleapis.com/css?family=Courgette');
 }
 
+/*Peter's Stuff*/
+#main{
+    float: left;
+}
+
+#logo{
+   display: inline-block;
+  } 
+
+#delicious{
+  display: inline-block;
+} 
+
+header p:first-child{
+  font-size: 2em;
+  margin:0;
+} 
+
+header p:last-child{
+  font-size: 0.50em;
+  margin:0;
+}  
+
+#main2{
+  float: right;
+}
+
+#icons{
+  display: inline-block;
+  margin-right: 5px; 
+}
+
+#icons2{
+  display: inline-block;
+}
+/*End Peter's stuff*/
+
 html *{
   box-sizing: border-box;
 }
@@ -14,9 +51,6 @@ html body{
   max-width: 900px;
 }
 
-html section:last-child *{
-  width: 100%;
-}
 
 html main p{
   font-size: 18px;
