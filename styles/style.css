@@ -1,0 +1,29 @@
+html *{
+  box-sizing: border-box;
+}
+
+html body{
+  display:block;
+  margin: 0px auto;
+  width: 900px;
+  max-width: 900px;
+}
+
+html body:last-child *{
+  width: 100%;
+}
+
+html body:last-child p{
+  font-size: 18px;
+  font-style: serif, arial;
+  text-align: left;
+  color: #444444;
+  text-indent: 2em;
+  line-height: 24px;
+  margin: 1.5em 0;
+}
+
+html body:last-child img{
+  display:block;
+  margin: 0px auto;
+}
