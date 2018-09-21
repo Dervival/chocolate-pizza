@@ -1,0 +1,59 @@
+
+
+#main{
+    float: left;
+}
+
+#logo{
+   display: inline-block;
+  } 
+
+  #delicious{
+    display: inline-block;
+  } 
+
+  p:first-child{
+    font-size: 2em;
+    margin:0;
+  } 
+
+  p:last-child{
+    font-size: 0.50em;
+    margin:0;
+  }  
+
+
+  #main2{
+      float: right;
+  }
+
+  #icons{
+    display: inline-block;
+    margin-right: 5px;
+   
+  }
+
+  #icons2{
+    display: inline-block;
+  }
+
+
+  /* 
+#main *{
+
+float: left;;
+
+
+} 
+
+p:first-child{
+ clear: left;
+  font-size: 1em;
+
+} 
+
+p:last-child{
+   clear: left;
+font-size: 0.50em;
+
+}   */
