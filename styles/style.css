@@ -27,3 +27,10 @@ html body:last-child img{
   display:block;
   margin: 0px auto;
 }
+
+.diagonalBarDivider{
+  display: inline-block;
+  min-height: 10px;
+  height: 10px;
+  background: repeating-linear-gradient(45deg, #111111, #111111 1px, #EEEEEE 1px, #EEEEEE 5px);
+}
