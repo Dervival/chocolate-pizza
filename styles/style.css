@@ -1,3 +1,8 @@
+@font-face{
+  font-family: "googleCursive";
+  src: url('https://fonts.googleapis.com/css?family=Courgette');
+}
+
 html *{
   box-sizing: border-box;
 }
@@ -9,11 +14,11 @@ html body{
   max-width: 900px;
 }
 
-html body:last-child *{
+html section:last-child *{
   width: 100%;
 }
 
-html body:last-child p{
+html main p{
   font-size: 18px;
   font-style: serif, arial;
   text-align: left;
@@ -23,9 +28,50 @@ html body:last-child p{
   margin: 1.5em 0;
 }
 
-html body:last-child img{
+html main img{
   display:block;
   margin: 0px auto;
+}
+
+#listSection{
+  background-image: url("../lab-assets/list-bg.png");
+  overflow: hidden;
+}
+
+html main section ul *{
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 24px;
+  font-family: 'Courgette', cursive;
+}
+
+html main section ul .checked{
+  text-decoration: line-through;
+  font-family: 'Courgette', cursive;
+}
+
+html main section ul .checked::before{
+  content: '☑ ';
+}
+
+html main section ul .unchecked{
+  font-family: 'Courgette', cursive;
+}
+
+html main section ul .unchecked::before{
+  content: '☐ ';
+}
+
+#firstList ul{
+  width: 50%;
+  float:left;
+  padding: 32px 0px;
+}
+
+#secondList ul{
+  float:right;
+  width: 50%;
+  padding: 32px 0px;
 }
 
 .diagonalBarDivider{
@@ -33,4 +79,6 @@ html body:last-child img{
   min-height: 10px;
   height: 10px;
   background: repeating-linear-gradient(45deg, #111111, #111111 1px, #EEEEEE 1px, #EEEEEE 5px);
+  width: 100%;
+  margin-top: 80px;
 }
